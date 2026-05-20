@@ -22,16 +22,16 @@ export const menuItems = [
 ];
 
 export const heroSlides = [
+  { id: 1, image: "/images/banner.png", alt: "Banner 1" },
   { id: 2, image: "/images/banner2.png", alt: "Banner 2" },
-  { id: 1, image: "/images/banner.webp", alt: "Banner 1" },
-  // { id: 3, image: "/images/banner3.jpg", alt: "Banner 3" },
+  { id: 3, image: "/images/banner3.png", alt: "Banner 3" },
 ];
 
 export const bestOffers = [
   { id: 1, image: "/images/offer1.png", alt: "Offer 1", link: "/category/desktop" },
-  { id: 2, image: "/images/offer2.webp", alt: "Offer 2", link: "/category/laptop" },
-  { id: 3, image: "/images/offer3.jpg", alt: "Offer 3", link: "/category/printers" },
-  { id: 4, image: "/images/offer4.jpg", alt: "Offer 4", link: "/category/accessories" },
+  { id: 2, image: "/images/offer2.png", alt: "Offer 2", link: "/category/laptop" },
+  { id: 3, image: "/images/offer3.png", alt: "Offer 3", link: "/category/printers" },
+  { id: 4, image: "/images/offer1.png", alt: "Offer 4", link: "/category/accessories" },
 ];
 
 export const categories = [
@@ -73,7 +73,7 @@ export const paymentMethods = [
 
 const productImages = [
   "/images/product1.png",
-  "/images/product2.jpg",
+  "/images/product2.png",
   "/images/product3.jpg",
   "/images/product4.jpg",
   "/images/product5.jpg",
@@ -145,10 +145,10 @@ export function generateProducts(page = 1, perPage = 12) {
 export const allProducts = generateProducts(1, 48);
 
 export const projects = [
-  { id: 1, name: "E-Commerce Platform", image: "/images/project1.jpg", description: "Full-featured online store solution" },
-  { id: 2, name: "ERP System", image: "/images/project2.jpg", description: "Enterprise resource planning software" },
-  { id: 3, name: "Mobile App", image: "/images/project3.jpg", description: "Cross-platform mobile application" },
-  { id: 4, name: "Cloud Dashboard", image: "/images/project4.jpg", description: "Real-time analytics dashboard" },
+  { id: 1, name: "E-Commerce Platform", image: "/images/project1.png", description: "Full-featured online store solution" },
+  { id: 2, name: "ERP System", image: "/images/project2.png", description: "Enterprise resource planning software" },
+  { id: 3, name: "Mobile App", image: "/images/project3.png", description: "Cross-platform mobile application" },
+  { id: 4, name: "Cloud Dashboard", image: "/images/project4.png", description: "Real-time analytics dashboard" },
   { id: 5, name: "POS System", image: "/images/project5.jpg", description: "Point of sale with inventory management" },
   { id: 6, name: "CRM Solution", image: "/images/project6.jpg", description: "Customer relationship management" },
 ];
